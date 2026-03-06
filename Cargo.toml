@@ -3,4 +3,13 @@ name = "bagagesortering"
 version = "0.1.0"
 edition = "2024"
 
+[lib]
+name = "bagagesortering"
+path = "src/lib.rs"
+
+[[bin]]
+name = "bagagesortering_bin"
+path = "src/main.rs"
+
 [dependencies]
+chrono = "0.4.44"
